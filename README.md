@@ -58,10 +58,6 @@ npm run build
 Запустить Laravel-сервер:
 
 ```bash
-composer dev
-
-или
-
 php artisan serve
 ```
 
