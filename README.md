@@ -49,6 +49,12 @@ docker build -t komek-by-ticket .
 docker run --rm -p 8080:80 komek-by-ticket
 ```
 
+Проект будет доступен по адресу:
+
+```text
+http://localhost:8080
+```
+
 ## Запустить / установка
 
 Установить Vite-зависимости:
@@ -91,12 +97,6 @@ php artisan serve
 
 ```text
 http://localhost:8000
-```
-
-Проект будет доступен по адресу:
-
-```text
-http://localhost:8080
 ```
 
 ## Окружение
