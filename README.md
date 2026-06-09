@@ -39,19 +39,19 @@ Komek by ticket — это Laravel-проект для работы с биле�
 
 ## Запустить
 
-Установить frontend-зависимости:
+Установить Vite-зависимости:
 
 ```bash
 npm install
 ```
 
-Установить PHP-зависимости:
+Установить Laravel-зависимости:
 
 ```bash
 composer install
 ```
 
-Собрать frontend-ресурсы:
+Собрать Vite-ресурсы:
 
 ```bash
 npm run build
