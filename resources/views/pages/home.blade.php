@@ -3,13 +3,13 @@
     <x-slot name="title">Главная</x-slot>
 
     <div class="home-page">
-        <div class="movies-date-taps">
-            <x-button type="red">Сегодня</x-button>
-            <x-button type="white">Завтра</x-button>
-            <x-button type="white">Воскресенье, 10 сент.</x-button>
-            <x-button type="white">Понедельник, 11 сент.</x-button>
-            <x-button type="white">Вторник, 12 сент.</x-button>
-            <x-button type="white">Среда, 13 сент.</x-button>
+        <div class="movies-date-tabs">
+            <x-button variant="red">Сегодня</x-button>
+            <x-button variant="white">Завтра</x-button>
+            <x-button variant="white">Воскресенье, 10 сент.</x-button>
+            <x-button variant="white">Понедельник, 11 сент.</x-button>
+            <x-button variant="white">Вторник, 12 сент.</x-button>
+            <x-button variant="white">Среда, 13 сент.</x-button>
         </div>
 
         <div class="movies">

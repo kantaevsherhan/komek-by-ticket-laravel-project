@@ -35,7 +35,7 @@
                 </div>
             @endforeach
         @else
-            <x-button type="red">Сеансы на Завтра</x-button>
+            <x-button variant="red">Сеансы на Завтра</x-button>
         @endif
     </div>
 </div>

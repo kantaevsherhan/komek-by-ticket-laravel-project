@@ -30,7 +30,7 @@
             </a>
         </nav>
 
-        <x-button type="red">
+        <x-button variant="red">
             Мне пришёл билет
         </x-button>
     </div>
@@ -43,11 +43,11 @@
             <a href="#">Контакты</a>
         </nav>
 
-        <x-button type="red">
+        <x-button variant="red">
             Войти
         </x-button>
 
-        <x-button type="red">
+        <x-button variant="red">
             Написать отзыв
         </x-button>
     </div>

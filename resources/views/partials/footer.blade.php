@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <div class="copylock">
+        <div class="copyright">
             <nav class="socials">
                 <a href="#">
                     <img src="{{ asset('/images/icons/facebook.svg') }}" alt="facebook">

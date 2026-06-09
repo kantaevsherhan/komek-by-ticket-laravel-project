@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('pages/home', [
+    return view('pages.home', [
         'movies' => [
             [
                 'title' => 'Праздники',
@@ -69,4 +69,4 @@ Route::get('/', function () {
             ],
         ],
     ]);
-});
+})->name('home');
