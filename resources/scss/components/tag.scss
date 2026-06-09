@@ -1,0 +1,19 @@
+@use "../variables" as *;
+@use "sass:color";
+
+.tag {
+  color: #727276;
+  font-size: 12px;
+  padding: 6px;
+  background-color: $color-bg-light;
+  border-radius: 3px;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+  cursor: default;
+
+  &:hover {
+    background-color: color.adjust($color-bg-light, $lightness: -6%);
+    color: color.adjust(#727276, $lightness: -15%);
+  }
+}

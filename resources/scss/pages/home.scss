@@ -1,0 +1,27 @@
+@use "../variables" as *;
+
+.home {
+  &-page {
+    background-color: #fff;
+
+    & > .movies-date-taps {
+      padding: 7px 50px;
+      background-color: $color-bg-light;
+      display: flex;
+      column-gap: 9px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .home {
+    &-page {
+      & > .movies-date-taps {
+        padding: 7px 15px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    }
+  }
+}

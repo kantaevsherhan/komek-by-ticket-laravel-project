@@ -1,0 +1,45 @@
+@use "../variables" as *;
+@use "sass:color";
+
+@mixin base-button {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.15s ease;
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+.button {
+  &-red {
+    @include base-button();
+    color: #fff;
+    background-color: $color-primary;
+
+    &:hover {
+      background-color: color.adjust($color-primary, $lightness: -8%);
+    }
+  }
+
+  &-white {
+    @include base-button();
+    color: #000;
+    background-color: #fff;
+    border: 1px solid $color-border;
+
+    &:hover {
+      background-color: $color-bg-light;
+      border-color: color.adjust($color-border, $lightness: -10%);
+    }
+  }
+}
