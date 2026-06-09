@@ -35,7 +35,7 @@ Komek by ticket — это Laravel-проект для работы с биле�
 - Используются Blade-компоненты и частичные шаблоны: layout, header, footer, button, tag, movie card ✅
 - Сторонние frontend-библиотеки для верстки не используются ✅
 
-## Запустить
+## Запустить / установка
 
 Установить Vite-зависимости:
 
@@ -47,6 +47,18 @@ npm install
 
 ```bash
 composer install
+```
+
+Создать файл окружения из примера:
+
+```bash
+copy .env.example .env
+```
+
+Сгенерировать ключ приложения:
+
+```bash
+php artisan key:generate
 ```
 
 Собрать Vite-ресурсы:
@@ -65,6 +77,26 @@ php artisan serve
 
 ```text
 http://localhost:8000
+```
+
+### Запуск через Docker
+
+Собрать Docker-образ:
+
+```bash
+docker build -t komek-by-ticket .
+```
+
+Запустить контейнер:
+
+```bash
+docker run --rm -p 8080:80 komek-by-ticket
+```
+
+Проект будет доступен по адресу:
+
+```text
+http://localhost:8080
 ```
 
 ## Окружение
