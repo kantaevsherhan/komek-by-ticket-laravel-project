@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/images/banner.png" alt="Hermes Agent" width="100%">
+</p>
+
 # Komek by ticket
 
 Komek by ticket — это Laravel-проект для работы с билетами в кино.
